@@ -1,0 +1,12 @@
+[package]
+name = "ReplayPacketModifier"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+zip = "2.6.1"
+clap = { version = "4.5.36", features = ["derive"] }
+
+[[bin]]
+name = "ReplayPacketModifier"
+path = "src/main.rs"
